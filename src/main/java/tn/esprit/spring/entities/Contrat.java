@@ -36,11 +36,11 @@ public class Contrat implements Serializable {
 	private Employe employe;
 
 	private float salaire;
-
+/*ajout d'un contrat*/
 	public Contrat() {
 		super();
 	}
-	
+	/*les elements du commentaire*/
 	public Contrat(Date dateDebut, String typeContrat, float salaire) {
 		this.dateDebut = dateDebut;
 		this.typeContrat = typeContrat;
@@ -87,5 +87,5 @@ public class Contrat implements Serializable {
 	public void setEmploye(Employe employe) {
 		this.employe = employe;
 	}
- 
+ /*comentaire*/
 }
